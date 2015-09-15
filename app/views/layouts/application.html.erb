@@ -8,7 +8,16 @@
 </head>
 <body>
 
-<%= yield %>
+<!--    Navigation bar -->
+  <%= link_to "home", welcome_home_path %>
+  <%= link_to "About us", welcome_about_path %>
+  <%= link_to "Contact", welcome_contact_path %>
+
+
+<!--    Navigation bar -->
+
+
+  <%= yield %>
 
 </body>
 </html>
